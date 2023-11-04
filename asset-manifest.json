@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/fishnbike/static/css/main.305c6d36.css",
+    "main.js": "/fishnbike/static/js/main.00bb13db.js",
+    "static/js/787.c480da66.chunk.js": "/fishnbike/static/js/787.c480da66.chunk.js",
+    "static/media/p7.png": "/fishnbike/static/media/p7.bd84a703f71b6203c307.png",
+    "static/media/p4.png": "/fishnbike/static/media/p4.5c8c6387359dfb1b1657.png",
+    "static/media/p5.png": "/fishnbike/static/media/p5.3e6c2a497ccc142226ba.png",
+    "static/media/p1.png": "/fishnbike/static/media/p1.7337a6381797757ded73.png",
+    "static/media/p2.png": "/fishnbike/static/media/p2.b50be7de2c3055da0c8d.png",
+    "static/media/sonar.jpg": "/fishnbike/static/media/sonar.8160f115d58369d20469.jpg",
+    "static/media/p6.png": "/fishnbike/static/media/p6.44286f5ea54b7da0445e.png",
+    "static/media/p3.png": "/fishnbike/static/media/p3.fe185538e12d70d3e5ca.png",
+    "static/media/logo.png": "/fishnbike/static/media/logo.b00eff0438029329184f.png",
+    "static/media/wheel_10-5.jpg": "/fishnbike/static/media/wheel_10-5.d901aee1336bbddeac18.jpg",
+    "static/media/bike.png": "/fishnbike/static/media/bike.dab5cc8b7dff40cc790f.png",
+    "static/media/tf520.jpg": "/fishnbike/static/media/tf520.0ee11d1a684164ef301d.jpg",
+    "static/media/ni-mh-aa-2850mah.jpg": "/fishnbike/static/media/ni-mh-aa-2850mah.e992657c3a67567083ae.jpg",
+    "static/media/toslon730.jpg": "/fishnbike/static/media/toslon730.a4768c80fb6ba2a6fe22.jpg",
+    "static/media/icons-sprite.svg": "/fishnbike/static/media/icons-sprite.254b5eab2c43ce26bbf55370df97d387.svg",
+    "index.html": "/fishnbike/index.html",
+    "main.305c6d36.css.map": "/fishnbike/static/css/main.305c6d36.css.map",
+    "main.00bb13db.js.map": "/fishnbike/static/js/main.00bb13db.js.map",
+    "787.c480da66.chunk.js.map": "/fishnbike/static/js/787.c480da66.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.305c6d36.css",
+    "static/js/main.00bb13db.js"
+  ]
+}
