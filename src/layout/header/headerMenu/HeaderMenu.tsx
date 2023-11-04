@@ -1,5 +1,6 @@
 import React from 'react';
-import {Link, List, ListItem, Mask, StyledMenu} from "./StyledMenu";
+import {List, ListItem, Mask, StyledMenu} from "./StyledMenu";
+import {Link} from "react-router-dom"
 
 export type MenuPropsType = {
     alignItems?: string
@@ -13,22 +14,22 @@ export type MenuPropsType = {
 
 const firstTabs = [
     { href: '/', tabName: 'Главная' },
-    { href: '#catalog', tabName: 'Каталог товаров' },
+    { href: '/catalog', tabName: 'Каталог товаров' },
 ]
 
 const secondTabs = [
-    { href: '#delivery', tabName: 'Доставка' },
-    { href: '#about', tabName: 'О компании' }
+    { href: '/delivery', tabName: 'Доставка' },
+    { href: '/about', tabName: 'О компании' }
 ]
 
-export const Menu = (props: MenuPropsType) => {
+export const HeaderMenu = (props: MenuPropsType) => {
     return (
         <StyledMenu alignItems={props.alignItems} justContent={props.justContent}
                     color={props.color} placeMenu={props.placeMenu} flexGrow={props.flexGrow}>
             <List placeMenu={props.placeMenu}>
                 {firstTabs.map((tab, index) => (
                     <ListItem key={index} theme={props.theme}>
-                        <Link href={tab.href}>
+                        <Link to={tab.href}>
                             {tab.tabName}
                             <Mask theme={props.theme}>
                                 <span>{tab.tabName}</span>
@@ -44,7 +45,7 @@ export const Menu = (props: MenuPropsType) => {
             <List placeMenu={props.placeMenu}>
                 {secondTabs.map((tab, index) => (
                     <ListItem key={index} theme={props.theme}>
-                        <Link href={tab.href}>
+                        <Link to={tab.href}>
                             {tab.tabName}
                             <Mask theme={props.theme}>
                                 <span>{tab.tabName}</span>

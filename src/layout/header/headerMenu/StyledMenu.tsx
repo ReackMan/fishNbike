@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {MenuPropsType} from "./Menu";
+import {MenuPropsType} from "./HeaderMenu";
 import {mainTheme} from "../../layout/styles/Theme";
 
 export const StyledMenu = styled.nav<MenuPropsType>`
@@ -39,20 +39,20 @@ export const List = styled.ul<{ placeMenu?: string }>`
   padding: 0;
   gap: 20px;
   
+  a {
+    text-align: center;
+
+    /* Buttons / Big */
+    font-family: DM Sans, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    //line-height: 26px; /* 130% */
+    color: transparent;
+  }
+  
   @media screen and (max-width: 576px) {
     flex-direction: ${props => props.placeMenu === 'footer' ? 'column' : ''};
   }
-`
-
-export const Link = styled.a`
-  text-align: center;
-
-  /* Buttons / Big */
-  font-family: DM Sans, sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  //line-height: 26px; /* 130% */
-  color: transparent;
 `
 
 
